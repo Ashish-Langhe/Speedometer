@@ -16,6 +16,26 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Meter()
+    }
+}
+
+struct Meter: View {
+    
+    //MARK: - PROPERTIES
+    let colors = [Color("color1"), Color("color2")]
+    
+    //MARK: - BODY
+    var body: some View {
+        
+        ZStack {
+            ZStack {
+                Circle()
+                    .trim(from: 0, to: 0.5)
+                    .stroke(AngularGradient(gradient: .init(colors: self.colors), center: .center, angle: .init(degrees: 180)), lineWidth: 55)
+                    .frame(width: 280, height: 280)
+            }
+        }
+        
     }
 }
