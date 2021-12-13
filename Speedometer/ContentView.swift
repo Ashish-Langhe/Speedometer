@@ -35,6 +35,7 @@ struct Meter: View {
                     .stroke(AngularGradient(gradient: .init(colors: self.colors), center: .center, angle: .init(degrees: 180)), lineWidth: 55)
                     .frame(width: 280, height: 280)
             }
+            .rotationEffect(.init(degrees: 180))
         }
         
     }
