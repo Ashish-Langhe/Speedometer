@@ -1,24 +1,10 @@
 //
-//  ContentView.swift
+//  MeterView.swift
 //  Speedometer
 //
-//  Created by user208584 on 12/13/21.
+//  Created by user208584 on 12/14/21.
 //
-
 import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        Meter()
-    }
-}
 
 struct Meter: View {
     
@@ -38,5 +24,11 @@ struct Meter: View {
             .rotationEffect(.init(degrees: 180))
         }
         
+    }
+}
+
+struct MeterView_Previews: PreviewProvider {
+    static var previews: some View {
+        Meter()
     }
 }

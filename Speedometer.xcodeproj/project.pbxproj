@@ -14,6 +14,7 @@
 		72166E392767A7F100475A63 /* SpeedometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72166E382767A7F100475A63 /* SpeedometerTests.swift */; };
 		72166E432767A7F100475A63 /* SpeedometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72166E422767A7F100475A63 /* SpeedometerUITests.swift */; };
 		72166E452767A7F100475A63 /* SpeedometerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72166E442767A7F100475A63 /* SpeedometerUITestsLaunchTests.swift */; };
+		72B51F7C276822D800A1B633 /* MeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B51F7B276822D700A1B633 /* MeterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		72166E3E2767A7F100475A63 /* SpeedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72166E422767A7F100475A63 /* SpeedometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerUITests.swift; sourceTree = "<group>"; };
 		72166E442767A7F100475A63 /* SpeedometerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72B51F7B276822D700A1B633 /* MeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,8 @@
 		72166E262767A7F000475A63 /* Speedometer */ = {
 			isa = PBXGroup;
 			children = (
-				72166E272767A7F000475A63 /* SpeedometerApp.swift */,
-				72166E292767A7F000475A63 /* ContentView.swift */,
+				72B51F792768227600A1B633 /* App */,
+				72B51F7A2768228800A1B633 /* View */,
 				72166E2B2767A7F100475A63 /* Assets.xcassets */,
 				72166E2D2767A7F100475A63 /* Preview Content */,
 			);
@@ -125,6 +127,23 @@
 				72166E442767A7F100475A63 /* SpeedometerUITestsLaunchTests.swift */,
 			);
 			path = SpeedometerUITests;
+			sourceTree = "<group>";
+		};
+		72B51F792768227600A1B633 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72166E272767A7F000475A63 /* SpeedometerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72B51F7A2768228800A1B633 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72166E292767A7F000475A63 /* ContentView.swift */,
+				72B51F7B276822D700A1B633 /* MeterView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				72166E2A2767A7F000475A63 /* ContentView.swift in Sources */,
 				72166E282767A7F000475A63 /* SpeedometerApp.swift in Sources */,
+				72B51F7C276822D800A1B633 /* MeterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
