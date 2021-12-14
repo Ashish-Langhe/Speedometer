@@ -2,7 +2,7 @@
 //  MeterView.swift
 //  Speedometer
 //
-//  Created by user208584 on 12/14/21.
+//  Created by Ashish Langhe on 12/14/21.
 //
 import SwiftUI
 
@@ -22,8 +22,20 @@ struct Meter: View {
                     .frame(width: 280, height: 280)
             }
             .rotationEffect(.init(degrees: 180))
+            
+            ZStack (alignment: .bottom) {
+                self.colors[0]
+                    .frame(width: 2, height: 15)
+                
+                Circle()
+                    .fill(self.colors[0])
+                    .frame(width: 15, height: 15)
+            }
+            .offset(y: -35)
+            .rotationEffect(.init(degrees: -90))
         }
-        
+        .padding(.bottom, -140)
+
     }
 }
 

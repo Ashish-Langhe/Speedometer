@@ -2,7 +2,7 @@
 //  SpeedometerTests.swift
 //  SpeedometerTests
 //
-//  Created by user208584 on 12/13/21.
+//  Created by Ashish Langhe on 12/13/21.
 //
 
 import XCTest
