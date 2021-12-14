@@ -84,7 +84,7 @@ struct Meter: View {
             .rotationEffect(.init(degrees: 180))
             
             ZStack (alignment: .bottom) {
-                self.colors[1]
+                self.colors[0]
                     .frame(width: 2, height: 95)
                 
                 Circle()
@@ -95,6 +95,7 @@ struct Meter: View {
             .rotationEffect(.init(degrees: -90))
             .rotationEffect(.init(degrees: self.setArrow()))
         }
+        .padding()
         .padding(.bottom, -140)
     }
     
