@@ -1,4 +1,4 @@
-# Speedometer
+# Speedometer (SwiftUI)
 A SwiftUI to demonstrate implementation of Speedometer with animation effect.
 
 
