@@ -1,5 +1,5 @@
 # Speedometer (SwiftUI)
-A SwiftUI to demonstrate implementation of Speedometer with animation effect.
+A SwiftUI to demonstrate implementation of Speedometer with animation effects.
 
 
 ![SpeedoMeterUI](https://user-images.githubusercontent.com/95478770/147022709-d2b2df7d-d910-4613-8b7e-6f6cc721adb1.png)
